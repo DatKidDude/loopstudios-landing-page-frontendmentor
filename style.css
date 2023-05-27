@@ -73,7 +73,7 @@ body {
   z-index: 10;
 }
 
-/** Page Header **/
+/** Page Header / Navigation **/
 .header {
   background: #0006 url(images/mobile/image-hero.jpg);
   background-size: cover;
@@ -110,7 +110,7 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  padding-left: 1.25rem;
+  padding-left: 1.5rem;
   transition: 300ms;
 }
 
@@ -125,6 +125,21 @@ body {
   font-size: 2rem;
   padding-block: 0.625rem;
   opacity: 0;
+  width: max-content;
+}
+
+.navbar-links::after {
+  content: "";
+  display: block;
+  width: 0%;
+  height: 2px;
+  background-color: var(--white);
+  margin-inline: auto;
+  transition: width 300ms ease;
+}
+
+.navbar-links:hover::after {
+  width: 50%;
 }
 
 .banner {
@@ -137,7 +152,8 @@ body {
 .banner h1 {
   color: var(--white);
   line-height: 1.2;
-  font-size: 2.25rem;
+  /* font-size: 2.25rem; */
+  font-size: clamp(2.25rem, -0.136rem + 10.182vw, 4rem);
   font-weight: var(--fw-300);
   text-transform: uppercase;
 }
