@@ -26,3 +26,9 @@ function toggleMenu() {
     });
   }
 }
+
+// window.addEventListener("load", () => {
+//   document.body.style.position = "absolute";
+//   document.body.style.bottom = "0";
+//   document.body.style.overflow = "scrollY";
+// });
