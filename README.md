@@ -4,7 +4,7 @@
 
 <div align="center">
 
-[LIVE](https://datkiddude.github.io/loopstudios-landing-page-frontendmentor/)
+[LIVE](https://datkiddude.github.io/loopstudios-landing-page-frontendmentor/) |
 [CHALLENGE](https://www.frontendmentor.io/challenges/qr-code-component-iux_sIO_H) |
 [SOLUTION](https://www.frontendmentor.io/solutions)
 
